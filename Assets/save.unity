@@ -24443,7 +24443,7 @@ GameObject:
   - component: {fileID: 852559347}
   - component: {fileID: 852559346}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24789,7 +24789,7 @@ GameObject:
   - component: {fileID: 1181371010}
   - component: {fileID: 1181371009}
   m_Layer: 5
-  m_Name: Text (TMP) (1)
+  m_Name: Timer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37039,7 +37039,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2035907467}
   - component: {fileID: 2035907469}
-  - component: {fileID: 2035907468}
+  - component: {fileID: 2035907470}
   m_Layer: 5
   m_Name: Crosshair
   m_TagString: Untagged
@@ -37066,7 +37066,15 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 24, y: 24}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2035907468
+--- !u!222 &2035907469
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035907466}
+  m_CullTransparentMesh: 1
+--- !u!114 &2035907470
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37078,7 +37086,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 4c724b2deff1c7645966e2d7476e0dbb, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -37096,14 +37104,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!222 &2035907469
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2035907466}
-  m_CullTransparentMesh: 1
 --- !u!43 &2108870114
 Mesh:
   m_ObjectHideFlags: 0
